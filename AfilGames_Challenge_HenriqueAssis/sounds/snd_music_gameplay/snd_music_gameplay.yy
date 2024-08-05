@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_music_gameplay",
+  "audioGroupId":{
+    "name":"ag_music",
+    "path":"audiogroups/ag_music",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":40.10508,
+  "name":"snd_music_gameplay",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_music_gameplay.wav",
+  "type":0,
+  "volume":1.0,
+}
