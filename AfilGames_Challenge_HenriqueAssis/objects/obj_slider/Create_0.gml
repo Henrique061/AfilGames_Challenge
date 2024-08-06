@@ -2,6 +2,24 @@ handle_value = 0.5;
 handle_alpha = 1.0;
 is_moving_handle = false;
 
+if (file_exists("configsave.txt"))
+{
+	var _final_action = target_action;
+	load_volumes()
+	
+	switch (_final_action)
+	{
+		case "music":
+			handle_value = global.music_volume;
+			break;
+		case "sfx":
+			handle_value = global.sfx_volume;
+			break;
+		default:
+			break;
+	}
+}
+
 // cria o sprite da barra e do handle do slider em sua devida posicao
 draw_slider = function() 
 {
@@ -62,6 +80,7 @@ change_handle_value = function()
 	
 	if (!instance_exists(target_object.id)) return;
 	
+	// variaveis atribuidos no inspector
 	with(target_object.id)
 	{
 		switch (_final_action)
