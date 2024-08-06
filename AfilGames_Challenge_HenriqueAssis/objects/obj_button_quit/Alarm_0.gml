@@ -1,3 +1,9 @@
 event_inherited();
 
-game_end();
+var _buttons_layer = "Buttons";
+var _popupbg_layer = "Popup_bg";
+var _popupbuttons_layer = "Popup_buttons";
+
+instance_deactivate_layer(_buttons_layer);
+instance_activate_layer(_popupbg_layer);
+instance_activate_layer(_popupbuttons_layer);
