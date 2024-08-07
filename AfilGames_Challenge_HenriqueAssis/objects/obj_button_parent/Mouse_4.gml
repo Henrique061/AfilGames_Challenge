@@ -1,2 +1,1 @@
-y = ystart + 4;
-alarm[0] = 5;
+click_button();

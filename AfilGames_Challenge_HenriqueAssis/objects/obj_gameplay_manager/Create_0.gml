@@ -1,0 +1,1 @@
+obj_ui_manager.select_ui(inst_22836120);

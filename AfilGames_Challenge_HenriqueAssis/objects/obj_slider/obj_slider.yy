@@ -30,6 +30,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"target_object","filters":[],"listItems":[],"multiselect":false,"name":"target_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"target_action","filters":[],"listItems":[],"multiselect":false,"name":"target_action","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"music","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"neighbour_down","filters":[],"listItems":[],"multiselect":false,"name":"neighbour_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"neighbour_up","filters":[],"listItems":[],"multiselect":false,"name":"neighbour_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"object_instance","filters":[],"listItems":[],"multiselect":false,"name":"object_instance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

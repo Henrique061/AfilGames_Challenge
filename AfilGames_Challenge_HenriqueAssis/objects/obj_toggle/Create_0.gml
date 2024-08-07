@@ -35,3 +35,19 @@ toggle_clicked = function()
 		}
 	}
 }
+
+is_pressing_some_key = function(_down, _right, _up, _left)
+{
+	if (_down || _right || _up || _left) 
+		return true;
+		
+	return false;
+}
+
+select_button = function(_next_target)
+{
+	with (obj_ui_manager)
+	{
+		select_ui(_next_target);	
+	}
+}
