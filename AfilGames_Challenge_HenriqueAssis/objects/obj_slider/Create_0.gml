@@ -99,6 +99,7 @@ change_value_by_keyboard = function(_is_incrementing)
 	
 	handle_value = clamp(handle_value, 0, 1);
 	
+	audio_play_sound(snd_sfx_select, 1000, false);
 	realize_action(handle_value, target_action);
 }
 
